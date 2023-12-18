@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct TestTask_dchicherinApp: App {
+    var hotelGetter = HotelGetter()
+    var roomGetter = RoomGetter()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartingPage().onAppear(perform: UIApplication.shared.addTapGestureRecognizer)
         }
     }
 }

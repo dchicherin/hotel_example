@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "6D7EFEF1-93C7-4984-9F41-8A8D80C73E4F",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TestTask_dchicherin.xcodeproj",
+      "identifier" : "A64006682B2B742000AEA927",
+      "name" : "TestTask_dchicherin"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TestTask_dchicherin.xcodeproj",
+        "identifier" : "A6E1E0DD2B30BB4500E6E4EA",
+        "name" : "UnitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
