@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Шаблон для синей кнопки по всей ширине экрана
 struct BlueButtonBig: View {
     var text = ""
     var body: some View {

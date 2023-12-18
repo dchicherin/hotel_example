@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Карточка комнаты
 struct RoomCard: View {
     let item : Room?
     var body: some View {

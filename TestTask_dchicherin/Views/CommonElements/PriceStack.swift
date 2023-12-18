@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Шаблон для отображения цены
 struct PriceStack: View {
     var minPrice: String?
     var priceFor: String?

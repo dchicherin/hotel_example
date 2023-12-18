@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Поле с информацией для дат
 struct InfoDateField: View {
     var name: String
     @Binding var field: Date?

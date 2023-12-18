@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Пара полей, справа серое
 struct BookingPair: View {
     var condition : String
     var conditionValue: String

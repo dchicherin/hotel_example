@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Составление облака тегов из массива
 struct TagCloud: View {
     var tags: [String]
     

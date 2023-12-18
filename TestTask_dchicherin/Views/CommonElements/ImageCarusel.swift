@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Карусель с изображениями
 struct ImageCarusel: View {
     var urls : [String]
     

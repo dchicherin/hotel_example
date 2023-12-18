@@ -47,7 +47,7 @@ class BookingModel: ObservableObject{
         var passed = true
         checkEmail()
         if email == "" || !emailIsvalid {
-            self.emailIsvalid = true
+            self.emailIsvalid = false
             passed = false
         }
         if phone == "" {

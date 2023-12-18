@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Текстовое поле с информацией
 struct InfoTextField: View {
     var name: String
     @Binding var field: String

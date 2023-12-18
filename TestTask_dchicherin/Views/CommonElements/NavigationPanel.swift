@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Верхняя навигационная панель
 struct NavigationPanel: View {
     var hotelName: String?
     var presentationP: Binding<PresentationMode>

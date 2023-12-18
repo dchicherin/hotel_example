@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Блок с информацией и иконками
 struct IncludedBlock: View {
     var imageName = "face.smiling"
     var text = "Удобства"

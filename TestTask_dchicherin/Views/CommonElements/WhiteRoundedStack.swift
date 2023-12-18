@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//Для отображения блоков
 struct WhiteRoudedStack <Content>: View where Content: View {
 
     let content: () -> Content
